@@ -44,12 +44,20 @@ body {
     font-size: 25px;
     letter-spacing: 15px;
   }
+
+  .title-container__subtitle {
+    font-size: 13px !important;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .title-container__title {
     font-size: 20px;
     letter-spacing: 10px;
+  }
+
+  .title-container__subtitle {
+    font-size: 11px !important;
   }
 }
 
