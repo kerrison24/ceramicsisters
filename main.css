@@ -35,7 +35,7 @@ body {
   font-size: 35px;
   letter-spacing: 30px;
   margin-bottom: 15px;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #fff;
   padding-bottom: 15px;
 }
 
@@ -45,7 +45,7 @@ body {
     letter-spacing: 15px;
   }
 
-  .title-container__subtitle {
+  .title-container__links {
     font-size: 13px !important;
   }
 }
@@ -56,27 +56,40 @@ body {
     letter-spacing: 10px;
   }
 
-  .title-container__subtitle {
+  .title-container__links {
     font-size: 11px !important;
   }
 }
 
-.title-container__subtitle {
+.title-container__links {
   letter-spacing: 3px;
   margin-top: 20px;
   font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: 0 auto;
 }
 
-.title-container__subtitle__icon {
+.title-container__links a:first-child {
+  margin-bottom: 10px;
+}
+
+.title-container__links a {
+  text-decoration: none;
+}
+
+.title-container__links p {
+  display: inline;
+  color: #fff;
+}
+
+.links-icon {
   display: inline;
   vertical-align: middle;
 }
 
-.title-container__subtitle__icon i {
+.links-icon i {
   font-size: 20px;
-  color: white;
-}
-
-.title-container__subtitle p {
-  display: inline;
+  color: #fff;
 }
