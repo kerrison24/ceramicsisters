@@ -4,9 +4,7 @@ body {
   height: 100vh;
   font-family: "Raleway", sans-serif;
   color: #fff;
-  background: linear-gradient(-45deg, #98bad3, #868686, #be82e6);
-  background-size: 400% 400%;
-  animation: gradientBG 10s ease infinite;
+  background: #94AD9F;
   position: relative;
 }
 
@@ -31,31 +29,17 @@ body {
   text-align: center;
 }
 
-.title-container__title {
-  font-size: 35px;
-  letter-spacing: 30px;
-  margin-bottom: 15px;
-  border-bottom: 2px solid #fff;
-  padding-bottom: 15px;
+.title-container__logo {
+  margin: 0 auto;
+  width: 280px;
+  margin-bottom: 80px;
 }
 
-@media screen and (max-width: 700px) {
-  .title-container__title {
-    font-size: 25px;
-    letter-spacing: 15px;
-  }
-
-  .title-container__links {
-    font-size: 13px !important;
-  }
+.title-container__logo__img {
+  width: 100%;
 }
 
 @media screen and (max-width: 400px) {
-  .title-container__title {
-    font-size: 20px;
-    letter-spacing: 10px;
-  }
-
   .title-container__links {
     font-size: 11px !important;
   }
